@@ -1,0 +1,51 @@
+.navtitle, .navbutton a {
+  display: block;
+  color: white;
+  padding: 14px 14px;
+  text-align: center;
+  float: right;
+  text-decoration: none;
+  font-size: 110%;
+}
+
+#navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #333;
+}
+
+.navtitle {
+  float: left;
+  font-size: 110%;
+}
+
+.navbutton a:hover {
+  background-color: #111;
+}
+
+@media (max-width: 800px) {
+  #homeimg {
+    display: none;
+  }
+}
+
+#cover {
+  background-color: #03a1fc;
+  padding-top:100px
+}
+
+#title {
+  font-family: 'Karla', sans-serif;
+  color: white;
+
+}
+
+hr.rounded {
+  border-top: 6px solid #ffffff;
+  border-radius: 5px;
+  width: 300px;
+}
+
+/*# sourceMappingURL=homepage.css.map */
